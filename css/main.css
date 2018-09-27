@@ -98,16 +98,73 @@ textarea {
    ========================================================================== */
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-header {}
+img {
+  background-color: red;
+}
+
+.BlockHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: green;
+}
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
-main {}
+
+section {
+  background-color: grey;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.ContainerPicture {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.produit {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article  {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.Follow {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Follow h3 {
+  margin-right: 1em;
+}
+
+.Follow a {
+  margin-right: 1em;
+}
+
+
+
+
+
+
    /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
-   
+
    /*~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 footer {
-
+  background-color: red;
 }
    /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 

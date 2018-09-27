@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Terre de Geek</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,6 +14,9 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,10 +26,12 @@
     <div class = "BlockHeader">
       <!--~~~~~LOGO~~~~~~-->
       <div class = "logo">
+        <img src = "img/terredegeek.png"/>
       </div>
       <!--~~~~~SEARCH BAR~~~~~~-->
       <div class = "search bar">
         <form>
+          <input type = "search" name = "recherche" placeholder = "Rechercher ici"/>
         </form>
       </div>
       <!--~~~~~CONTACT~~~~~~-->
@@ -45,13 +50,13 @@
     <!--~~~~~START Container Pictures~~~~~~-->
       <div class = "ContainerPicture">
         <div class = "img1">
-          <img src = ""/>
+          <img src = "img/pc.jpg" height="230vm"/>
         </div>
       <div class = "img2">
-          <img src = ""/>
+          <img src = "img/projecteur.jpg" height="230vm"/>
         </div>
       <div class = "img3">
-          <img src = ""/>
+          <img src = "img/xbox.jpg" height="230vm"/>
         </div>
       </div>
     <!--~~~~~END Container Pictures~~~~~~-->
@@ -62,23 +67,35 @@
     <!--~~~~~REDIRECTION "PRODUITS"~~~~~~-->
     <!--~~~~~START ARTICLE~~~~~~-->
     <article>
-      <h2></h2>
+      <h2>Qui somme nous ?</h2>
+      <div class = "Video">
+        <iframe width="600" height="280" src="https://www.youtube.com/embed/vK2oQdVPmD8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
       <!--~~~~~START Container GOOGLE MAP~~~~~~-->
+      <h2>Où somme nous situés ?</h2>
       <div class = "Map">
         <div class = "GoogleMap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12463.67005625034!2d0.9397144818525475!3d48.95036553385013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e16ea95798d369%3A0x118e753f16885842!2sSPACEP+Euro+Piscine!5e0!3m2!1sfr!2sfr!4v1538075506940" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
       <!--~~~~~END Container GOOGLE MAP~~~~~~-->
     <!--~~~~~END ARTICLE~~~~~~-->
     </article>
-  <!--~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~-->
+
+  <div class = "Follow">
+    <h3 class = "Follow">SUIVEZ-NOUS</h3>
+    <a href = ""><i class="fab fa-facebook-square fa-3x"></i></a>
+    <a href = ""><i class="fab fa-twitter-square fa-3x"></i></a>
+    <a href = ""><i class="fab fa-instagram fa-3x"></i></a>
+  </div>
   </main>
   <!--~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~-->
   <footer>
-    <h2></h2>
-    <p></p>
+    <h2>Numsletter: Abonnez-vous à l'essentiel !</h2>
     <div class = "FormMailFooter">
       <form>
+        <input type = "mail" name = "mail" placeholder = "Mon adresse mail"/>
+        <input type = "submit" value = "ok"/>
       </form>
     </div>
   </footer>
