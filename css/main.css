@@ -96,75 +96,137 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*********************UNIVERSAL RULES********************/
+   article, footer {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
+   }
+
+   .white {
+     color: white;
+   }
+
+   .blue {
+     color: #067bc2
+   }
+
+   .backgroundBlue {
+     background-color: #067bc2
+   }
+
+   .styleBorder {
+     border-right: 2px solid #067bc2;
+     border-left: 2px solid #067bc2;
+     padding: 1em;
+   }
+
+   input {
+     height: 7vh;
+
+   }
+
+   /*********************UNIVERSAL RULES********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-img {
-  background-color: red;
+
+header {
+  height: auto;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 1em;
 }
 
 .BlockHeader {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: green;
+  text-decoration: none;
 }
+
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
-
-section {
-  background-color: grey;
-}
-
-section h2 {
-  text-align: center;
-}
-
-.ContainerPicture {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.produit {
-  margin-top: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-article  {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
 
 .Follow {
   margin-top: 1em;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
-.Follow h3 {
-  margin-right: 1em;
+.Follow * {
+  margin-right: 0.5em;
 }
 
-.Follow a {
-  margin-right: 1em;
+.Suiveznous
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.produitbis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 2em;
+}
+/******************START SECTION**************/
+.TitleTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerPicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.ContainerPicture img {
+  border-radius: 10px;
+  box-shadow: -15px 0px 20px 10px teal;
+}
+
+/******************END SECTION**************/
+/******************START ARTICLE**************/
+article {
+  margin-top: 2em;
+  border-top: 2px solid #067bc2;
+  margin-right: 3em;
+  margin-left: 3em;
 }
 
 
+/******************END SECTION**************/
 
-
-
-
-   /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
+            /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
 
    /*~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 footer {
-  background-color: red;
+  height: 40vh;
+  border-top: 1px solid;
+}
+
+.BlockFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
    /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 
