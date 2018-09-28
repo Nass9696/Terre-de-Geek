@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*********************UNIVERSAL RULES********************/
-   article, footer {
+   article{
      display: flex;
      flex-direction: column;
      align-content: center;
@@ -124,16 +124,11 @@ textarea {
 
    input {
      height: 7vh;
-
    }
 
    /*********************UNIVERSAL RULES********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-
-header {
-  height: auto;
-}
 
 header a {
   text-decoration: none;
@@ -152,10 +147,13 @@ header a:hover {
   text-decoration: none;
 }
 
+.produit {
+
+}
+
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
-
 .Follow {
   margin-top: 1em;
   display: flex;
@@ -218,15 +216,13 @@ article {
             /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
 
    /*~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
-footer {
-  height: 40vh;
-  border-top: 1px solid;
-}
 
 .BlockFooter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: yellow;
+
 }
    /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 
