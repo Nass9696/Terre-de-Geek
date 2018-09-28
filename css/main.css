@@ -147,10 +147,6 @@ header a:hover {
   text-decoration: none;
 }
 
-.produit {
-
-}
-
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
@@ -225,7 +221,18 @@ article {
 
 }
    /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
-
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+.FormMailFooter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 
 
 
