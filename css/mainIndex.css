@@ -97,63 +97,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*********************UNIVERSAL RULES********************/
-   article{
+article, .FormMailFooter, .imgF, .Suiveznous {
      display: flex;
      flex-direction: column;
      align-content: center;
      align-items: center;
    }
+   main h2 {
+     border-right: 3px solid #067bc2;
+     border-left:  3px solid #067bc2;
+   }
 
-   .white {
+input {
+     height: 7vh;
+   }
+
+a {
+     outline-style: none;
+     text-decoration: none;
+     font-weight: bold;
+    }
+.white {
      color: white;
    }
 
-   .blue {
+.blue {
      color: #067bc2
    }
 
-   .backgroundBlue {
+.backgroundBlue {
      background-color: #067bc2
    }
 
-   .styleBorder {
+.styleBorder {
      border-right: 2px solid #067bc2;
      border-left: 2px solid #067bc2;
      padding: 1em;
    }
+.styleimg {
+      border: 3px solid white;
+      border-radius: 100px;
+      padding: 1em;
+    }
 
-   input {
-     height: 7vh;
-   }
 
-   a {
-     outline-style: none;
-   }
 
    /*********************UNIVERSAL RULES********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-
-header a {
-  text-decoration: none;
+header {
+  height: 30vh;
 }
 
-header a:hover {
+.buy a {
+  text-decoration: underline;
+}
+
+.buy, .buy a, .buy i {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+.BlockHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BlockHeader a:hover{
   border: 1px solid white;
   border-radius: 100px;
   padding: 1em;
 }
-
-.BlockHeader {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-decoration: none;
-}
-
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
+
 .Follow {
   margin-top: 1em;
   display: flex;
@@ -166,8 +189,7 @@ header a:hover {
   margin-right: 0.5em;
 }
 
-.Suiveznous
-{
+.Suiveznous {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,47 +232,9 @@ article {
   margin-right: 3em;
   margin-left: 3em;
 }
+/******************END ARTICLE**************/
 
-
-/******************END SECTION**************/
-
-            /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
-
-   /*~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
-
-.BlockFooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: yellow;
-
-}
-   /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-}
-.FormMailFooter {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+        /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ==========================================================================
    Helper classes
