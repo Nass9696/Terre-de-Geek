@@ -126,6 +126,10 @@ textarea {
      height: 7vh;
    }
 
+   a {
+     outline-style: none;
+   }
+
    /*********************UNIVERSAL RULES********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
@@ -136,7 +140,7 @@ header a {
 
 header a:hover {
   border: 1px solid white;
-  border-radius: 2px;
+  border-radius: 100px;
   padding: 1em;
 }
 
@@ -172,12 +176,13 @@ header a:hover {
 }
 
 .produitbis {
+  margin-top: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  margin-top: 2em;
 }
+
 /******************START SECTION**************/
 .TitleTop {
   display: flex;
