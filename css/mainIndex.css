@@ -97,29 +97,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*********************UNIVERSAL RULES********************/
-article, .FormMailFooter, .imgF, .Suiveznous {
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-     align-items: center;
+article, .imgF, .Suiveznous {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
    }
-   main h2 {
-     border-right: 3px solid #067bc2;
-     border-left:  3px solid #067bc2;
-   }
+
+.Follow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 input {
-     height: 7vh;
-   }
+ height: 7vh;
+}
 
 a {
-     outline-style: none;
-     text-decoration: none;
-     font-weight: bold;
-    }
+outline-style: none;
+text-decoration: none;
+font-weight: bold;
+  }
+
+header {
+  height: 30vh;
+}
+
+main h2 {
+  border-right: 3px solid #067bc2;
+  border-left:  3px solid #067bc2;
+  padding: 2em;
+}
+
+article {
+  margin-top: 2em;
+  border-top: 2px solid #067bc2;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+h3 {
+  color: #067bc2;
+}
+  /*********************UNIVERSAL RULES********************/
+
+  /*********************UTILITIES CLASS********************/
 .white {
-     color: white;
-   }
+  color: white;
+}
 
 .blue {
      color: #067bc2
@@ -134,26 +161,21 @@ a {
      border-left: 2px solid #067bc2;
      padding: 1em;
    }
+
 .styleimg {
       border: 3px solid white;
       border-radius: 100px;
       padding: 1em;
     }
 
-
-
-   /*********************UNIVERSAL RULES********************/
-
-   /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-header {
-  height: 30vh;
-}
-
-.buy a {
+.underline {
   text-decoration: underline;
 }
+  /*********************UTILITIES CLASS********************/
 
-.buy, .buy a, .buy i {
+   /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
+
+.buy, .buy a, .buy i, .up {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -179,30 +201,10 @@ header {
 
 .Follow {
   margin-top: 1em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .Follow * {
   margin-right: 0.5em;
-}
-
-.Suiveznous {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 2em;
-}
-
-.produitbis {
-  margin-top: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
 }
 
 /******************START SECTION**************/
@@ -217,24 +219,25 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 2em;
+  text-align: center;
 }
 
 .ContainerPicture img {
   border-radius: 10px;
   box-shadow: -15px 0px 20px 10px teal;
 }
-
 /******************END SECTION**************/
-/******************START ARTICLE**************/
-article {
-  margin-top: 2em;
-  border-top: 2px solid #067bc2;
-  margin-right: 3em;
-  margin-left: 3em;
-}
-/******************END ARTICLE**************/
 
         /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
+
+        /*-~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
+.Abonnement {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+        /*-~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ==========================================================================
    Helper classes
