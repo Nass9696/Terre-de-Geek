@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Terre de Geek</title>
+  <link rel = "icon" href = "img/terredegeek.png"/>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,25 +14,50 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mainIndex.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
   <!--~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~-->
-  <header>
+<header class = " #a backgroundBlue">
+  <div class = "buy white underline">
+    <a class = "white" href = "">Mon panier</a>
+    <i class="fas fa-shopping-cart"></i>
+    <a class = "white" href = "">S'inscrire</a>
+    <i class="fas fa-sign-in-alt"></i>
+  </div>
     <!--~~~~~~~START "BLOCK HEADER"~~~~~~-->
     <div class = "BlockHeader">
-      <!--~~~~~LOGO~~~~~~-->
-      <div class = "logo">
+      <div class = "logo styleimg">
+        <img src = "img/terredegeek.png" height = "120"/>
+      </div>
+      <div class = "acceuil">
+        <a class = "white" href = "index.html">ACCEUIL</a>
+      </div>
+      <div class = "produit">
+        <a class = "white" href = "Pages/Produits.html">NOS PRODUITS</a>
       </div>
       <!--~~~~~SEARCH BAR~~~~~~-->
-      <div class = "search bar">
+      <div class = "searchBar">
         <form>
+          <input type = "search" name = "recherche" placeholder = "Rechercher ici"/>
+          <i class ="fas fa-search white"></i>
         </form>
+      </div>
+      <!--~~~~~PRÉSENTATION~~~~~~-->
+      <div class = "presentation">
+        <a class = "white" href = "Pages/Présentation.html">PRÉSENTATION</a>
       </div>
       <!--~~~~~CONTACT~~~~~~-->
       <div class = "contact">
-        <a href = "">NOUS CONTACTER</a>
+        <a class = "white" href = "Pages/Contact.html">NOUS CONTACTER</a>
       </div>
     <!--~~~~~~~END "BLOCK HEADER"~~~~~~-->
     </div>
@@ -39,49 +65,62 @@
   </header>
 
   <!--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~-->
-  <main>
-    <section>
+<main>
+  <section>
+    <div class = "TitleTop blue">
       <h2>TOP VENTES</h2>
+    </div>
     <!--~~~~~START Container Pictures~~~~~~-->
       <div class = "ContainerPicture">
         <div class = "img1">
-          <img src = ""/>
+          <h3>Lenovo: 319,99 €</h3>
+          <a href = "Pages/Portable.html"><img src = "img/pc.jpg" height="230"/></a>
         </div>
-      <div class = "img2">
-          <img src = ""/>
+        <div class = "img2">
+          <h3>Rétro-projecteur: 79.99 €</h3>
+          <a href = "Pages/Projo.html"><img src = "img/projecteur.jpg" height="230"/></a>
         </div>
-      <div class = "img3">
-          <img src = ""/>
+        <div class = "img3">
+          <h3>Xbox One: 340,00 €</h3>
+          <a href = "Pages/Xbox.html"><img src = "img/xbox.jpg" height="230"/></a>
         </div>
       </div>
     <!--~~~~~END Container Pictures~~~~~~-->
-    <!--~~~~~REDIRECTION "PRODUITS"~~~~~~-->
-      <div class = "produit">
-        <a href = "">NOS PRODUITS</a>
-      </div>
-    <!--~~~~~REDIRECTION "PRODUITS"~~~~~~-->
+  </section>
     <!--~~~~~START ARTICLE~~~~~~-->
-    <article>
-      <h2></h2>
+<article>
+  <h2 class = "blue">Qui sommes nous ?</h2>
+  <div class = "Video">
+    <iframe width="600" height="280" src="https://www.youtube.com/embed/vK2oQdVPmD8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
       <!--~~~~~START Container GOOGLE MAP~~~~~~-->
-      <div class = "Map">
-        <div class = "GoogleMap">
-        </div>
+  <h2 class = "blue">Où somme nous situés ?</h2>
+    <div class = "Map">
+      <div class = "GoogleMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12463.67005625034!2d0.9397144818525475!3d48.95036553385013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e16ea95798d369%3A0x118e753f16885842!2sSPACEP+Euro+Piscine!5e0!3m2!1sfr!2sfr!4v1538075506940" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      <!--~~~~~END Container GOOGLE MAP~~~~~~-->
-    <!--~~~~~END ARTICLE~~~~~~-->
-    </article>
-  <!--~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+      <!--END Container GOOGLE MAP~~-->
+    <!--~~~~~~~~~~~~~~~~~~~~~~END ARTICLE~~~~~~~~~~~~~~~~~~~-->
+</article>
+  <div class = "Follow blue">
+    <h3 class = "Follow">SUIVEZ-NOUS</h3>
+    <a href = ""><i class="fab fa-facebook-square fa-3x blue"></i></a>
+    <a href = ""><i class="fab fa-twitter-square fa-3x blue"></i></a>
+    <a href = ""><i class="fab fa-instagram fa-3x blue"></i></a>
+  </div>
+  <!--~~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~-->
   </main>
   <!--~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~-->
-  <footer>
-    <h2></h2>
-    <p></p>
-    <div class = "FormMailFooter">
-      <form>
-      </form>
-    </div>
-  </footer>
+<footer class = "backgroundBlue">
+  <div class = "Abonnement">
+  <h2 class = "white">Abonnez-vous à l'essentiel !</h2>
+    <form>
+      <input type = "mail" name = "mail" placeholder = "Mon adresse mail"/>
+      <input type = "submit" value = "OK"/>
+    </form>
+  </div>
+</footer>
   <!--~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~-->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

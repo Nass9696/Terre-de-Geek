@@ -96,34 +96,148 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*********************UNIVERSAL RULES********************/
+article, .imgF, .Suiveznous {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+   }
+
+.Follow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+ height: 7vh;
+}
+
+a {
+outline-style: none;
+text-decoration: none;
+font-weight: bold;
+  }
+
+header {
+  height: 30vh;
+}
+
+main h2 {
+  border-right: 3px solid #067bc2;
+  border-left:  3px solid #067bc2;
+  padding: 2em;
+}
+
+article {
+  margin-top: 2em;
+  border-top: 2px solid #067bc2;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+h3 {
+  color: #067bc2;
+}
+  /*********************UNIVERSAL RULES********************/
+
+  /*********************UTILITIES CLASS********************/
+.white {
+  color: white;
+}
+
+.blue {
+     color: #067bc2
+   }
+
+.backgroundBlue {
+     background-color: #067bc2
+   }
+
+.styleBorder {
+     border-right: 2px solid #067bc2;
+     border-left: 2px solid #067bc2;
+     padding: 1em;
+   }
+
+.styleimg {
+      border: 3px solid white;
+      border-radius: 100px;
+      padding: 1em;
+    }
+
+.underline {
+  text-decoration: underline;
+}
+  /*********************UTILITIES CLASS********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
-header {}
+
+.buy, .buy a, .buy i, .up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+.BlockHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BlockHeader a:hover{
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 1em;
+}
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
    /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
-main {}
-   /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
-   
-   /*~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
-footer {
 
+.Follow {
+  margin-top: 1em;
 }
-   /*~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 
+.Follow * {
+  margin-right: 0.5em;
+}
 
+/******************START SECTION**************/
+.TitleTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerPicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2em;
+  text-align: center;
+}
 
+.ContainerPicture img {
+  border-radius: 10px;
+  box-shadow: -15px 0px 20px 10px teal;
+}
+/******************END SECTION**************/
 
+        /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
 
-
-
-
-
-
-
-
-
-
+        /*-~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
+.Abonnement {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+        /*-~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ==========================================================================
    Helper classes
