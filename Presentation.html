@@ -14,53 +14,58 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/mainPrésentation.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~-->
   <header class = "backgroundBlue">
-    <!--~~~~~~~START "BLOCK HEADER"~~~~~~-->
-    <div class = "BlockHeader">
-      <!--~~~~~LOGO~~~~~~-->
-      <div class = "logo">
-        <img src = "img/terredegeek.png" height = "120"/>
-      </div>
-      <div class = "acceuil">
-        <a class = "white" href = "index.html">ACCEUIL</a>
-      </div>
-      <div class = "produit">
-        <a class = "white" href = "">NOS PRODUITS</a>
-      </div>
-      <!--~~~~~SEARCH BAR~~~~~~-->
-      <div class = "searchBar">
-        <form>
-          <input type = "search" name = "recherche" placeholder = "Rechercher ici"/>
-        </form>
-      </div>
-      <!--~~~~~PRÉSENTATION~~~~~~-->
-      <div class = "presentation">
-        <a class = "white" href = "Présentation.html">PRÉSENTATION</a>
-      </div>
-      <!--~~~~~CONTACT~~~~~~-->
-      <div class = "contact">
-        <a class = "white" href = "">NOUS CONTACTER</a>
-      </div>
-    <!--~~~~~~~END "BLOCK HEADER"~~~~~~-->
+    <div class = "buy white underline">
+      <a class = "white" href = "">Mon panier</a>
+      <i class="fas fa-shopping-cart"></i>
+      <a class = "white" href = "">S'inscrire</a>
+      <i class="fas fa-sign-in-alt"></i>
     </div>
-    <!--~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~-->
-  </header>
+      <!--~~~~~~~START "BLOCK HEADER"~~~~~~-->
+      <div class = "BlockHeader">
+        <div class = "logo styleimg">
+          <img src = "img/terredegeek.png" height = "120"/>
+        </div>
+        <div class = "acceuil">
+          <a class = "white" href = "index.html">ACCEUIL</a>
+        </div>
+        <div class = "produit">
+          <a class = "white" href = "Pages/Produits.html">NOS PRODUITS</a>
+        </div>
+        <!--~~~~~SEARCH BAR~~~~~~-->
+        <div class = "searchBar">
+          <form>
+            <input type = "search" name = "recherche" placeholder = "Rechercher ici"/>
+            <i class ="fas fa-search white"></i>
+          </form>
+        </div>
+        <!--~~~~~PRÉSENTATION~~~~~~-->
+        <div class = "presentation">
+          <a class = "white" href = "Pages/Presentation.html">PRÉSENTATION</a>
+        </div>
+        <!--~~~~~CONTACT~~~~~~-->
+        <div class = "contact">
+          <a class = "white" href = "Pages/Contact.html">NOUS CONTACTER</a>
+        </div>
+      <!--~~~~~~~END "BLOCK HEADER"~~~~~~-->
+      </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~-->
+    </header>
 
   <!--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~-->
   <main class = "blue">
-    <div class = "img">
+    <div class = "imgPresentation">
       <img src = "img/terredegeek2.png" height = "150"/>
     </div>
     <div class= "ContaintPrésentation">
-    <section>
+    <section class = "sectionPresentation">
       <h2 class = "line">Présentation de la sociéte Terre de Geek :</h2>
       <p>L’entreprise Terre de Geek a été fondée en 2003, dynamique, née d'une véritable passion pour la conception et la réalisation d‘installations multimédia</p>
       <p>Notre  savoir  faire  et nos compétences  reposent  sur  un  bureau  d'études,  nos  compétences  terrain  et  des personnels expérimentés et motivés.</p>
@@ -69,7 +74,7 @@
       <h3 class = "line">Nos valeurs:</h3>
       <p>Savoir-faire et Qualité, Engagement, Disponibilité, Responsabilité, Confiance et Proximité</p>
   </section>
-    <article>
+    <article class = "articlePresentation">
       <h2 class = "line">Notre emplacement :</h2>
       <div class = "GoogleMap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12463.67005625034!2d0.9397144818525475!3d48.95036553385013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e16ea95798d369%3A0x118e753f16885842!2sSPACEP+Euro+Piscine!5e0!3m2!1sfr!2sfr!4v1538075506940" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -85,15 +90,13 @@
   </main>
   <!--~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~-->
   <footer class = "backgroundBlue">
-    <img src = "img/terredegeek.png"/>
-    <div class = "FormMailFooter white">
-      <h2>Abonnez-vous à l'essentiel !</h2>
+    <div class = "Abonnement">
+    <h2 class = "white">Abonnez-vous à l'essentiel !</h2>
       <form>
         <input type = "mail" name = "mail" placeholder = "Mon adresse mail"/>
         <input type = "submit" value = "OK"/>
       </form>
     </div>
-    <img src = "img/terredegeek.png"/>
   </footer>
   <!--~~~~~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~~~-->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

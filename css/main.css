@@ -125,13 +125,7 @@ header {
   height: 30vh;
 }
 
-main h2 {
-  border-right: 3px solid #067bc2;
-  border-left:  3px solid #067bc2;
-  padding: 2em;
-}
-
-article {
+.articleIndex {
   margin-top: 2em;
   border-top: 2px solid #067bc2;
   margin-right: 3em;
@@ -144,6 +138,11 @@ h3 {
   /*********************UNIVERSAL RULES********************/
 
   /*********************UTILITIES CLASS********************/
+.BorderLR {
+  border-right: 3px solid #067bc2;
+  border-left:  3px solid #067bc2;
+  padding: 2em;
+ }
 .white {
   color: white;
 }
@@ -197,7 +196,7 @@ h3 {
 }
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
-   /*--~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~*/
+   /*--~~~~~~~~~~~~~~~~~~~~~START MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~*/
 
 .Follow {
   margin-top: 1em;
@@ -228,7 +227,40 @@ h3 {
 }
 /******************END SECTION**************/
 
-        /*-~~~~~~~~~~~~~~~~~~~~~END MAIN~~~~~~~~~~~~~~~~~~~~~*/
+        /*-~~~~~~~~~~~~~~~~~~~~~END MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~*/
+
+      /*--~~~~~~~~~~~~~~~~~~~~~START MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~*/
+.imgPresentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ContaintPrésentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionPresentation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 53%;
+  height: 80vh;
+}
+
+.articlePresentation {
+  border-left: 3px solid #067bc2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 47%;
+  height: 80vh;
+}
+      /*--~~~~~~~~~~~~~~~~~~~~~END MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~~~*/
 
         /*-~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 .Abonnement {
