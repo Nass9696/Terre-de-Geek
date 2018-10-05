@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*********************UNIVERSAL RULES********************/
-article, .imgF, .Suiveznous {
+.articleIndex, .imgF, .Suiveznous {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -170,6 +170,12 @@ h3 {
 .underline {
   text-decoration: underline;
 }
+.center {
+  text-align: center;
+}
+.noborder {
+  border: 0;
+}
   /*********************UTILITIES CLASS********************/
 
    /*~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~*/
@@ -196,7 +202,7 @@ h3 {
 }
    /*~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~*/
 
-   /*--~~~~~~~~~~~~~~~~~~~~~START MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~*/
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~STARTS MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .Follow {
   margin-top: 1em;
@@ -227,9 +233,9 @@ h3 {
 }
 /******************END SECTION**************/
 
-        /*-~~~~~~~~~~~~~~~~~~~~~END MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~*/
+    /*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END MAIN INDEX.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-      /*--~~~~~~~~~~~~~~~~~~~~~START MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~*/
+    /*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~START MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .imgPresentation {
   display: flex;
   flex-direction: row;
@@ -260,7 +266,33 @@ h3 {
   width: 47%;
   height: 80vh;
 }
-      /*--~~~~~~~~~~~~~~~~~~~~~END MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~~~*/
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END MAIN PRESENTATION.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~START MAIN CONTACT.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.sectionContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.BlockObjet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sousmettre {
+  margin-top: 2em;
+}
+
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END MAIN CONTACT.HTML~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
         /*-~~~~~~~~~~~~~~~~~~~~~START FOOTER~~~~~~~~~~~~~~~~~~~~~*/
 .Abonnement {
